@@ -1,0 +1,18 @@
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "Gabriel Lima de Souza", email = "gabriellima2803@gmail.com"},
+]
+dependencies = [
+    "django>=4.2.4",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "black>=23.7.0",
+]
