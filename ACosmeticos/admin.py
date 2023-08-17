@@ -4,6 +4,10 @@ from django.contrib import admin
 
 from django.contrib import admin
 
-from .models import Cliente
+from ACosmeticos.models import Cliente, Carrinho, Marcas, Produto, ItemCarrinho
 
 admin.site.register(Cliente)
+admin.site.register(Carrinho)
+admin.site.register(Marcas)
+admin.site.register(Produto)
+admin.site.register(ItemCarrinho)
