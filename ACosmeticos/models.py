@@ -1,7 +1,6 @@
 from django.db import models
 
-# Create your models here.
-
+# Criação Cliente.
 
 class Cliente(models.Model):
     # idCliente = models.IntegerField()
@@ -14,23 +13,25 @@ class Cliente(models.Model):
     cidade = models.CharField(max_length=50)
     estado = models.CharField(max_length=2)
 
+ # importar o modelo Cliente do seu aplicativo de clientes
+
     def __str__(self):
         return self.nome
 
     def nome_completo(self):
         return f"{self.nome}"
 
- # importar o modelo Cliente do seu aplicativo de clientes
-
+# Criação Carrinho
 
 class Carrinho(models.Model):
     cliente = models.ForeignKey(Cliente, on_delete=models.CASCADE)
-    # total_da_compra = models.DecimalField(max_digits=10, decimal_places=2, default=0.00)
-    # data_do_pedido = models.DateField(auto_created=True)
+    total_da_compra = models.DecimalField(max_digits=10, decimal_places=2, default=0.00)
+    # data_do_pedido = models.DateTimeField(auto_created=True)
 
     def __str__(self):
         return f"Carrinho de {self.cliente.nome}"
     
+# Criação Marcas
 
 class Marcas(models.Model):
     nome_marcas = models.CharField(max_length=100)
@@ -39,6 +40,7 @@ class Marcas(models.Model):
     def __str__(self):
         return self.nome_marcas
 
+# Produto
 
 class Produto(models.Model):
     idProduto = models.IntegerField()
@@ -51,11 +53,31 @@ class Produto(models.Model):
     
     def __str__(self):
         return self.nome
+
+# Criação ItemCarrinho
     
 class ItemCarrinho(models.Model):
     carrinho = models.ForeignKey(Carrinho, on_delete=models.CASCADE)
     produto = models.ForeignKey(Produto, on_delete=models.CASCADE)
     quantidade = models.PositiveIntegerField(default=1)
 
-    #  def __str__(self):
-    #     # return f"{self.quantidade} x {self.produto.nome} em {self.carrinho.cliente.nome}"
+    def __str__(self):
+        return f"{self.quantidade}"
+
+# Criação Favorito
+
+class Favorito(models.Model):
+    cliente = models.ForeignKey(Cliente, on_delete=models.CASCADE)
+    produto = models.ForeignKey(Produto, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return f"{self.cliente.nome} - {self.produto.nome}"
+
+# Criação Forma de pagamento
+
+class FormaPagamento(models.Model):
+    tipo_de_pagamento = models.CharField(max_length=100)
+    quantidade_de_parcelas = models.PositiveIntegerField(default=1, blank=True)
+
+    def __str__(self):
+        return self.tipo_de_pagamento
