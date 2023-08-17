@@ -13,6 +13,9 @@ class Cliente(models.Model):
     cidade = models.CharField(max_length=50)
     estado = models.CharField(max_length=2)
 
+    class Meta:
+        verbose_name_plural = "Clientes"
+
  # importar o modelo Cliente do seu aplicativo de clientes
 
     def __str__(self):
@@ -50,6 +53,7 @@ class Produto(models.Model):
     marca = models.ForeignKey(Marcas, on_delete=models.PROTECT, null=True)
     validade = models.DateField(auto_now_add=True)
     # imagem = models.ImageField(upload_to='products/')
+
     
     def __str__(self):
         return self.nome
@@ -67,7 +71,7 @@ class ItemCarrinho(models.Model):
 # Criação Favorito
 
 class Favorito(models.Model):
-    cliente = models.ForeignKey(Cliente, on_delete=models.CASCADE)
+    cliente = models.ForeignKey(Cliente, on_delete=models.CASCADE) 
     produto = models.ForeignKey(Produto, on_delete=models.CASCADE)
 
     def __str__(self):
