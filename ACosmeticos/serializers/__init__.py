@@ -4,3 +4,4 @@ from .itemCarrinho import ItemCarrinhoSerializer
 from .carrinho import CarrinhoSerializer
 from .produto import ProdutoSerializer
 from .marcas import MarcasSerializer
+from .formaPagamento import FormaPagamentoSerializer

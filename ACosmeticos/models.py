@@ -3,7 +3,6 @@ from django.db import models
 # Criação Cliente.
 
 class Cliente(models.Model):
-    # idCliente = models.IntegerField()
     nome = models.CharField(max_length=100)
     email = models.EmailField(unique=True)
     numero_telefone = models.CharField(max_length=20)
@@ -12,6 +11,8 @@ class Cliente(models.Model):
     bairro = models.CharField(max_length=50)
     cidade = models.CharField(max_length=50)
     estado = models.CharField(max_length=2)
+    cep = models.CharField(max_length=9)
+    cpf = models.CharField(max_length=11)
 
     class Meta:
         verbose_name_plural = "Clientes"
@@ -50,7 +51,7 @@ class Produto(models.Model):
     nome = models.CharField(max_length=100)
     descricao = models.TextField(blank=True)
     preco = models.DecimalField(max_digits=10, decimal_places=2, default=0, null=True)
-    marca = models.ForeignKey(Marcas, on_delete=models.PROTECT, null=True)
+    marca = models.ForeignKey(Marcas, on_delete=models.PROTECT, null=False)
     validade = models.DateField(auto_now_add=True)
     # imagem = models.ImageField(upload_to='products/')
 
