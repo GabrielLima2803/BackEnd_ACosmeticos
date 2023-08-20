@@ -15,8 +15,13 @@ router.register(r"favorito", FavoritoViewSet)
 router.register(r"cliente", ClienteViewSet)
 router.register(r"formaPagamento", FormaPagamentoViewSet)
 
+
+
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", include(router.urls)),
 ]
+
+
+
 

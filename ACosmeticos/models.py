@@ -5,7 +5,6 @@ from django.contrib.auth.models import User
 
 class Cliente(models.Model):
     nome = models.CharField(max_length=100)
-    senha = models.IntegerField(max_length=16)
     email = models.EmailField(unique=True)
     numero_telefone = models.CharField(max_length=20)
     endereco = models.TextField()
@@ -13,8 +12,8 @@ class Cliente(models.Model):
     bairro = models.CharField(max_length=50)
     cidade = models.CharField(max_length=50)
     estado = models.CharField(max_length=2)
-    cep = models.CharField(max_length=9, null=True, default="0")
-    cpf = models.CharField(max_length=11, null=True, default="0")
+    cep = models.CharField(max_length=9, null=True, default="bla")
+    cpf = models.CharField(max_length=11, null=True, default="bla")
 
     class Meta:
         verbose_name_plural = "Clientes"
@@ -46,7 +45,7 @@ class Compra(models.Model):
         Entregue = 4, 'Entregue'
 
     usuario = models.ForeignKey(User, on_delete=models.PROTECT, related_name="compras")
-    status = models.IntegerField(choices=StatusCompra.choices, default=StatusCompra.CARRINHO, null=True)
+    status = models.IntegerField(choices=StatusCompra.choices, default=StatusCompra.CARRINHO)
 
 class Marcas(models.Model):
     nome_marcas = models.CharField(max_length=100)
@@ -58,7 +57,6 @@ class Marcas(models.Model):
 # Produto
 
 class Produto(models.Model):
-    idProduto = models.IntegerField()
     nome = models.CharField(max_length=100)
     descricao = models.TextField(blank=True)
     preco = models.DecimalField(max_digits=10, decimal_places=2, default=0, null=True)

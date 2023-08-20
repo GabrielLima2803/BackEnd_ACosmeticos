@@ -14,7 +14,7 @@ class Migration(migrations.Migration):
             model_name="itemcarrinho",
             name="compra",
             field=models.ForeignKey(
-                default="+",
+                default= 1,
                 null=True,
                 on_delete=django.db.models.deletion.CASCADE,
                 related_name="itens",
