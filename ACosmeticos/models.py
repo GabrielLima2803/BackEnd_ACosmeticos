@@ -49,7 +49,7 @@ class Compra(models.Model):
     status = models.IntegerField(choices=StatusCompra.choices, default=StatusCompra.CARRINHO)
 
 # Criação Marcas
-class Marcas(models.Model):
+class Marca(models.Model):
     nome_marcas = models.CharField(max_length=100)
     tipo_do_Produto = models.CharField(max_length=50)
 
@@ -62,7 +62,7 @@ class Produto(models.Model):
     nome = models.CharField(max_length=100)
     descricao = models.TextField(blank=True)
     preco = models.DecimalField(max_digits=10, decimal_places=2, default=0, null=True)
-    marca = models.ForeignKey(Marcas, on_delete=models.PROTECT)
+    marca = models.ForeignKey(Marca, on_delete=models.PROTECT)
     quantia = models.IntegerField(null=True, default=1)
     validade = models.DateField(auto_now_add=True)
     capa = models.ForeignKey(

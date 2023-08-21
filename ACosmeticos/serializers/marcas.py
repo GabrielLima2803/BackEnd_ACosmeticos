@@ -1,10 +1,10 @@
 from rest_framework.serializers import ModelSerializer
 
-from ACosmeticos.models import Marcas
+from ACosmeticos.models import Marca
 
 # Marcas
 class MarcasSerializer(ModelSerializer):
     class Meta:
-        model = Marcas
+        model = Marca
         fields = "__all__"
         depth = 1 

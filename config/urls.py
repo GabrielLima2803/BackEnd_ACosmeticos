@@ -33,10 +33,7 @@ router.register(r"formaPagamento", FormaPagamentoViewSet)
 
 
 urlpatterns = [
-    # path("api/", include(usuario_router.urls)),
-    path("/", include(router.urls)),
     path("admin/", admin.site.urls),
-    path("/", include(router.urls)),
     path("token/", TokenObtainPairView.as_view(), name="token_obtain_pair"),
     path("token/refresh/", TokenRefreshView.as_view(), name="token_refresh"),
     path("api/media/", include(uploader_router.urls)),
@@ -53,9 +50,7 @@ urlpatterns = [
     ),
     path("api/", include(router.urls)),
 
-]
-
-urlpatterns += static(settings.MEDIA_ENDPOINT, document_root=settings.MEDIA_ROOT)
+] + static(settings.MEDIA_ENDPOINT, document_root=settings.MEDIA_ROOT)
 
 
 
