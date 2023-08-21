@@ -1,5 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
+from uploader.models import Image
 
 # Criação Cliente
 
@@ -36,7 +37,6 @@ class Carrinho(models.Model):
     def __str__(self):
         return f"Carrinho de {self.cliente.nome}"
     
-# Criação Marcas
 class Compra(models.Model):
     class StatusCompra(models.IntegerChoices):
         CARRINHO = 1, 'Carrinho'
@@ -45,8 +45,10 @@ class Compra(models.Model):
         Entregue = 4, 'Entregue'
 
     usuario = models.ForeignKey(User, on_delete=models.PROTECT, related_name="compras")
+    cliente = models.ForeignKey(Cliente, on_delete=models.CASCADE)
     status = models.IntegerField(choices=StatusCompra.choices, default=StatusCompra.CARRINHO)
 
+# Criação Marcas
 class Marcas(models.Model):
     nome_marcas = models.CharField(max_length=100)
     tipo_do_Produto = models.CharField(max_length=50)
@@ -63,7 +65,15 @@ class Produto(models.Model):
     marca = models.ForeignKey(Marcas, on_delete=models.PROTECT)
     quantia = models.IntegerField(null=True, default=1)
     validade = models.DateField(auto_now_add=True)
-    # imagem = models.ImageField(upload_to='products/')
+class Livro(models.Model):
+    capa = models.ForeignKey(
+        Image,
+        related_name="+",
+        on_delete=models.CASCADE,
+        null=True,
+        blank=True,
+        default=None,
+    )
 
     
     def __str__(self):

@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from rest_framework.viewsets import ModelViewSet
 from django.conf import settings
-
+from rest_framework.permissions import IsAuthenticated
 
 
 # from rest_framework.permissions import IsAuthenticated
@@ -17,6 +17,7 @@ class ProdutoViewSet(ModelViewSet):
 class MarcasViewSet(ModelViewSet):
     queryset = Marcas.objects.all()
     serializer_class = MarcasSerializer
+    permission_classes = [IsAuthenticated]
 
 class ItemCarrinhoViewSet(ModelViewSet):
     queryset = ItemCarrinho.objects.all()
