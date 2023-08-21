@@ -17,7 +17,7 @@ class ProdutoViewSet(ModelViewSet):
 class MarcasViewSet(ModelViewSet):
     queryset = Marcas.objects.all()
     serializer_class = MarcasSerializer
-    permission_classes = [IsAuthenticated]
+    # permission_classes = [IsAuthenticated]
 
 class ItemCarrinhoViewSet(ModelViewSet):
     queryset = ItemCarrinho.objects.all()

@@ -65,7 +65,6 @@ class Produto(models.Model):
     marca = models.ForeignKey(Marcas, on_delete=models.PROTECT)
     quantia = models.IntegerField(null=True, default=1)
     validade = models.DateField(auto_now_add=True)
-class Livro(models.Model):
     capa = models.ForeignKey(
         Image,
         related_name="+",

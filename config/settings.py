@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     "corsheaders",
     "rest_framework",
     "rest_framework_simplejwt",
+    "drf_spectacular",
     "uploader",
     # "usuario",
     "ACosmeticos",
@@ -57,6 +58,13 @@ REST_FRAMEWORK = {
     "DEFAULT_AUTHENTICATION_CLASSES": (
         "rest_framework_simplejwt.authentication.JWTAuthentication",
     ),
+    "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
+}
+
+SPECTACULAR_SETTINGS = {
+    "TITLE": "ACosmeticos API",
+    "DESCRIPTION": "API para gerenciamento de cosmeticos, incluindo endpoints e documentação.",
+    "VERSION": "1.0.0",
 }
 
 
