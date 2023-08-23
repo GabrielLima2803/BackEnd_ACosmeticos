@@ -1,6 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User
 from uploader.models import Image
+from usuario.models import Usuario
 
 # Criação Cliente
 
@@ -44,7 +45,7 @@ class Compra(models.Model):
         PAGO = 3, 'Pago'
         Entregue = 4, 'Entregue'
 
-    usuario = models.ForeignKey(User, on_delete=models.PROTECT, related_name="compras")
+    usuario = models.ForeignKey(Usuario, on_delete=models.PROTECT, related_name="compras")
     cliente = models.ForeignKey(Cliente, on_delete=models.CASCADE)
     status = models.IntegerField(choices=StatusCompra.choices, default=StatusCompra.CARRINHO)
 
