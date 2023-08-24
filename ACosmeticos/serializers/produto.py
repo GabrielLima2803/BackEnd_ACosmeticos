@@ -12,16 +12,15 @@ class ProdutoSerializer(ModelSerializer):
         fields = "__all__"
         depth = 1
 
-
-class ProdutoSerializer(ModelSerializer):
-    capa_attachment_key = SlugRelatedField(
+        capa_attachment_key = SlugRelatedField(
         source="capa",
         queryset=Image.objects.all(),
         slug_field="attachment_key",
         required=False,
         write_only=True,
-    )
-    capa = ImageSerializer(required=False, read_only=True)        
+        )
+        capa = ImageSerializer(required=False, read_only=True)       
+    
      
 class ProdutoDetailSerializer(ModelSerializer):
     class Meta:
