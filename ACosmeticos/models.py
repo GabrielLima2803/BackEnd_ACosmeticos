@@ -84,7 +84,7 @@ class Produto(models.Model):
 class ItemCarrinho(models.Model):
     carrinho = models.ForeignKey(Carrinho, on_delete=models.CASCADE)
     compra = models.ForeignKey(Compra, on_delete=models.CASCADE, related_name="itens")
-    produto = models.ForeignKey(Produto, on_delete=models.CASCADE)
+    produto = models.ForeignKey(Produto, on_delete=models.PROTECT, related_name="+")
     quantidade = models.PositiveIntegerField(default=1)
 
     def __str__(self):

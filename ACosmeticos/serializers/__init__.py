@@ -5,3 +5,4 @@ from .carrinho import CarrinhoSerializer
 from .produto import ProdutoSerializer
 from .marcas import MarcasSerializer
 from .formaPagamento import FormaPagamentoSerializer
+from .compra import CompraSerializer

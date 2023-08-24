@@ -20,7 +20,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 from uploader.router import router as uploader_router
 
-from ACosmeticos.views import ProdutoViewSet, MarcasViewSet, CarrinhoViewSet, FavoritoViewSet, ClienteViewSet, ItemCarrinhoViewSet, FormaPagamentoViewSet
+from ACosmeticos.views import ProdutoViewSet, MarcasViewSet, CarrinhoViewSet, FavoritoViewSet, ClienteViewSet, ItemCarrinhoViewSet, FormaPagamentoViewSet, CompraViewSet
 
 router = DefaultRouter()
 router.register(r"produtos", ProdutoViewSet)
@@ -30,11 +30,12 @@ router.register(r"itemcarrinho", ItemCarrinhoViewSet)
 router.register(r"favorito", FavoritoViewSet)
 router.register(r"cliente", ClienteViewSet)
 router.register(r"formaPagamento", FormaPagamentoViewSet)
+router.register(r"compras", CompraViewSet)
 
 
 urlpatterns = [
+    path("apiU/", include(usuario_router.urls)),
     path("api/", include(router.urls)),
-    path("api/", include(usuario_router.urls)),
     path("admin/", admin.site.urls),
     path("token/", TokenObtainPairView.as_view(), name="token_obtain_pair"),
     path("token/refresh/", TokenRefreshView.as_view(), name="token_refresh"),

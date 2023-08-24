@@ -6,8 +6,8 @@ from django.conf import settings
 
 # from rest_framework.permissions import IsAuthenticated
 
-from ACosmeticos.models import Produto, Marca, ItemCarrinho, Favorito, Carrinho, Cliente, FormaPagamento
-from ACosmeticos.serializers import ProdutoSerializer, MarcasSerializer, ItemCarrinhoSerializer, FavoritoSerializer, CarrinhoSerializer, ClienteSerializer, FormaPagamentoSerializer 
+from ACosmeticos.models import Produto, Marca, ItemCarrinho, Favorito, Carrinho, Cliente, FormaPagamento, Compra
+from ACosmeticos.serializers import ProdutoSerializer, MarcasSerializer, ItemCarrinhoSerializer, FavoritoSerializer, CarrinhoSerializer, ClienteSerializer, FormaPagamentoSerializer, CompraSerializer
 
 class ProdutoViewSet(ModelViewSet):
     queryset = Produto.objects.all()
@@ -38,3 +38,7 @@ class ClienteViewSet(ModelViewSet):
 class FormaPagamentoViewSet(ModelViewSet):
     queryset = FormaPagamento.objects.all()
     serializer_class = FormaPagamentoSerializer
+
+class CompraViewSet(ModelViewSet):
+    queryset = Compra.objects.all()
+    serializer_class = CompraSerializer

@@ -22,7 +22,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "django-insecure-^)0+z$_6%-pde=0^)f9b$%u7po!q!==z7r6%0svgw31l^hko(j"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 from dotenv import load_dotenv
@@ -34,6 +33,7 @@ SECRET_KEY = os.getenv("SECRET_KEY")
 DEBUG = os.getenv("DEBUG", "False")
 CSRF_TRUSTED_ORIGINS = ["http://localhost:3000", "http://localhost:8000", "https://*.fl0.io/"]
 
+SECRET_KEY = "django-insecure-^)0+z$_6%-pde=0^)f9b$%u7po!q!==z7r6%0svgw31l^hko(j"
 # Application definition
 
 INSTALLED_APPS = [
@@ -130,7 +130,6 @@ else:
 
 print(MODE, DATABASES)
 
-...
 if MODE == "PRODUCTION":
     STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
     STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
