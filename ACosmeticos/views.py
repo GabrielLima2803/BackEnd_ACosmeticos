@@ -7,7 +7,7 @@ from django.conf import settings
 # from rest_framework.permissions import IsAuthenticated
 
 from ACosmeticos.models import Produto, Marca, ItemCarrinho, Favorito, Carrinho, Cliente, FormaPagamento, Compra
-from ACosmeticos.serializers import ProdutoSerializer, MarcasSerializer, ItemCarrinhoSerializer, FavoritoSerializer, CarrinhoSerializer, ClienteSerializer, FormaPagamentoSerializer, CompraSerializer
+from ACosmeticos.serializers import ProdutoSerializer, MarcasSerializer, ItemCarrinhoSerializer, FavoritoSerializer, CarrinhoSerializer, ClienteSerializer, FormaPagamentoSerializer, CompraSerializer, CriarEditarCompraSerializer
 
 class ProdutoViewSet(ModelViewSet):
     queryset = Produto.objects.all()
@@ -42,3 +42,7 @@ class FormaPagamentoViewSet(ModelViewSet):
 class CompraViewSet(ModelViewSet):
     queryset = Compra.objects.all()
     serializer_class = CompraSerializer
+    def get_serializer_class(self):
+        if self.action == "create" or self.action == "update":
+            return CriarEditarCompraSerializer
+        return CompraSerializer
