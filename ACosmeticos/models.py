@@ -28,6 +28,14 @@ class Cliente(models.Model):
     def nome_completo(self):
         return f"{self.nome}"
 
+        # Criação Marcas
+class Marca(models.Model):
+    tipo_do_Produto = models.CharField(max_length=50)
+    nome_marcas = models.CharField(max_length=100)
+
+    def __str__(self):
+        return self.tipo_do_Produto
+
 # Criação Carrinho
 
 class Carrinho(models.Model):
@@ -48,29 +56,15 @@ class Compra(models.Model):
     usuario = models.ForeignKey(Usuario, on_delete=models.PROTECT, related_name="compras")
     cliente = models.ForeignKey(Cliente, on_delete=models.CASCADE)
     status = models.IntegerField(choices=StatusCompra.choices, default=StatusCompra.CARRINHO)
-    @property
-    def total(self):
-        # total = 0
-        # for item in self.itens.all():
-        #     total += item.livro.preco * item.quantidade
-        # return total
-        return sum(item.livro.preco * item.quantidade for item in self.itens.all())
 
-# Criação Marcas
-class Marca(models.Model):
-    nome_marcas = models.CharField(max_length=100)
-    tipo_do_Produto = models.CharField(max_length=50)
-
-    def __str__(self):
-        return self.nome_marcas
 
 # Produto
 
 class Produto(models.Model):
     nome = models.CharField(max_length=100)
-    descricao = models.TextField(blank=True)
+    descricao = models.TextField(blank=False)
     preco = models.DecimalField(max_digits=10, decimal_places=2, default=0, null=True)
-    marca = models.ForeignKey(Marca, on_delete=models.PROTECT)
+    marca = models.ForeignKey(Marca, on_delete=models.PROTECT, blank=True, null=True) 
     quantia = models.IntegerField(null=True, default=1)
     validade = models.DateField(auto_now_add=True)
     capa = models.ForeignKey(

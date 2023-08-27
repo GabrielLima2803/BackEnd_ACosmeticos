@@ -1,5 +1,5 @@
 import magic
-file_magic = magic.Magic(magic_file="C:\Windows\magic\magic.mgc")
+file_magic = magic.Magic(magic_file="/usr/share/file/magic.mgc")
 
 CONTENT_TYPE_ICO = "image/x-icon"
 CONTENT_TYPE_JPG = "image/jpeg"

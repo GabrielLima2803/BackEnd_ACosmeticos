@@ -7,7 +7,5 @@ class CompraSerializer(ModelSerializer):
     usuario = CharField(source="usuario.email", read_only=True)
     itens = ItemCarrinhoSerializer(many=True, read_only=True)
     status = CharField(source="get_status_display", read_only=True)
-    class Meta:
-        model = Compra
-        fields = ("id", "usuario", "status", "total", "itens")
+
 

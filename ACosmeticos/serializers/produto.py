@@ -11,6 +11,7 @@ class ProdutoSerializer(ModelSerializer):
         model = Produto
         fields = "__all__"
         depth = 1
+        read_only_fields = []
 
         capa_attachment_key = SlugRelatedField(
         source="capa",
