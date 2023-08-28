@@ -63,6 +63,7 @@ class Compra(models.Model):
 class Produto(models.Model):
     nome = models.CharField(max_length=100)
     descricao = models.TextField(blank=False)
+    tipo = models.CharField(max_length=50, blank=True, null=True)
     preco = models.DecimalField(max_digits=10, decimal_places=2, default=0, null=True)
     marca = models.ForeignKey(Marca, on_delete=models.PROTECT, blank=True, null=True) 
     quantia = models.IntegerField(null=True, default=1)
@@ -78,7 +79,7 @@ class Produto(models.Model):
 
     
     def __str__(self):
-        return self.nome
+       return f"{self.nome} - {self.tipo}"
 
 # Criação ItemCarrinho
     
@@ -103,6 +104,7 @@ class Favorito(models.Model):
 # Criação Forma de pagamento
 
 class FormaPagamento(models.Model):
+    carrinho = models.ForeignKey(Carrinho, on_delete=models.CASCADE, blank=True, null=True)
     tipo_de_pagamento = models.CharField(max_length=100)
     quantidade_de_parcelas = models.PositiveIntegerField(default=1, blank=True)
 
