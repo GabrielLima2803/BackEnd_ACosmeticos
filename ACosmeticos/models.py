@@ -8,6 +8,7 @@ from usuario.models import Usuario
 class Cliente(models.Model):
     nome = models.CharField(max_length=100)
     email = models.EmailField(unique=True)
+    # passwordClie = models.CharField(unique=True, max_length=20)
     numero_telefone = models.CharField(max_length=20)
     endereco = models.TextField()
     numero_casa = models.CharField(max_length=10)
@@ -34,7 +35,7 @@ class Marca(models.Model):
     nome_marcas = models.CharField(max_length=100)
 
     def __str__(self):
-        return self.tipo_do_Produto
+       return f"{self.nome_marcas} - {self.tipo_do_Produto}"
 
 # Criação Carrinho
 
@@ -63,7 +64,7 @@ class Compra(models.Model):
 class Produto(models.Model):
     nome = models.CharField(max_length=100)
     descricao = models.TextField(blank=False)
-    tipo = models.CharField(max_length=50, blank=True, null=True)
+    # tipo = models.CharField(max_length=50, blank=True, null=True)
     preco = models.DecimalField(max_digits=10, decimal_places=2, default=0, null=True)
     marca = models.ForeignKey(Marca, on_delete=models.PROTECT, blank=True, null=True) 
     quantia = models.IntegerField(null=True, default=1)
@@ -79,7 +80,7 @@ class Produto(models.Model):
 
     
     def __str__(self):
-       return f"{self.nome} - {self.tipo}"
+       return f"{self.nome} - {self.marca}"
 
 # Criação ItemCarrinho
     
