@@ -1,0 +1,3662 @@
+None {'default': {'ENGINE': 'django.db.backends.sqlite3', 'NAME': PosixPath('/home/gabriel.lima/Documentos/BackEnd_ACosmeticos/db.sqlite3')}}
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2023-08-25T14:49:17.839Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "Oboticario",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2023-08-25T14:49:50.827Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "das",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2023-08-25T14:50:28.670Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "( - 68cccd2f-d4fc-44f1-82d0-5976642ebc5d)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2023-08-25T14:50:38.524Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "1",
+    "object_repr": "sda",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2023-08-25T16:37:20.290Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "1",
+    "object_repr": "sda",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2023-08-25T16:37:27.388Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "Oboticario",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2023-08-25T16:37:38.761Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "das",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2023-09-14T13:24:38.185Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "28",
+    "object_repr": "Creme Morango Ruby - Nativa Spa",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2023-09-14T13:27:47.194Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "110",
+    "object_repr": "Dr. Botica Poção da Aventura - Mais Vendidos!",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2023-09-14T13:27:54.618Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "109",
+    "object_repr": "Capricho Tenho Super Poderes - Mais Vendidos!",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2023-09-14T13:27:58.824Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "108",
+    "object_repr": "Egeo Choc - Mais Vendidos!",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2023-09-14T13:28:03.280Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "107",
+    "object_repr": "Malbec Signature - Mais Vendidos!",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2023-09-14T13:28:18.122Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "106",
+    "object_repr": "Dr. Botica Poção da Aventura - Lançamento!",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo\", \"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2023-09-14T13:28:47.012Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "105",
+    "object_repr": "Uomini Black - Lançamento!",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo\", \"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2023-09-14T13:28:56.174Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "104",
+    "object_repr": "Botica 214 Verano en Firenze - Lançamento!",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo\", \"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2023-09-14T13:29:13.481Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "103",
+    "object_repr": "Zaad Expedition - Lançamento!",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo\", \"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2023-09-14T13:29:19.560Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "102",
+    "object_repr": "Love Lily - Lily Perfumaria",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2023-09-14T13:29:25.281Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "101",
+    "object_repr": "Lily Le - Lily Perfumaria",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2023-09-14T13:29:30.850Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "100",
+    "object_repr": "Lily - Lily Perfumaria",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2023-09-14T13:29:37.857Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "99",
+    "object_repr": "Lily Absolute - Lily Perfumaria",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2023-09-14T13:29:43.480Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "98",
+    "object_repr": "Lily Lumière - Lily Perfumaria",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2023-09-14T13:29:51.402Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "97",
+    "object_repr": "Love Spacy Vibe - Egeo Perfumaria",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2023-09-14T13:29:55.646Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "96",
+    "object_repr": "Egeo Red - Egeo Perfumaria",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2023-09-14T13:30:00.822Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "95",
+    "object_repr": "Egeo Original - Egeo Perfumaria",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2023-09-14T13:30:07.160Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "94",
+    "object_repr": "Egeo Bomb Black - Egeo Perfumaria",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2023-09-14T13:30:15.610Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "93",
+    "object_repr": "Egeo Choc - Egeo Perfumaria",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2023-09-14T13:30:22.252Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "92",
+    "object_repr": "Dr.Botica Poção da Força - Dr Botica Perfumaria",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2023-09-14T13:30:42.505Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "91",
+    "object_repr": "Dr.Botica Poção da Amizade - Dr Botica Perfumaria",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2023-09-14T13:30:48.873Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "90",
+    "object_repr": "Dr.Botica Poção do Coração - Dr Botica Perfumaria",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2023-09-14T13:31:03.129Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "89",
+    "object_repr": "Dr.Botica Poção da Coragem - Dr Botica Perfumaria",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2023-09-14T13:31:18.249Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "88",
+    "object_repr": "Dr.Botica Poção da Aventura - Dr Botica Perfumaria",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2023-09-14T13:31:25.249Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "87",
+    "object_repr": "Coffee Woman Lucky - Coffe Perfumaria",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2023-09-14T13:31:37.642Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "86",
+    "object_repr": "Coffee Man - Coffe Perfumaria",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2023-09-14T13:31:53.707Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "85",
+    "object_repr": "Coffee Man Duo - Coffe Perfumaria",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2023-09-14T13:32:02.378Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "84",
+    "object_repr": "Coffee Woman Duo - Coffe Perfumaria",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2023-09-14T13:32:09.106Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "83",
+    "object_repr": "Coffee Woman Seduction - Coffe Perfumaria",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2023-09-14T13:32:41.986Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "82",
+    "object_repr": "Malbec X - Malbec Perfumaria",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2023-09-14T13:32:47.945Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "81",
+    "object_repr": "Malbec - Malbec Perfumaria",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2023-09-14T13:32:55.345Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "80",
+    "object_repr": "Malbec Club Intenso - Malbec Perfumaria",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2023-09-14T13:33:01.081Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "79",
+    "object_repr": "Malbec Flame - Malbec Perfumaria",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2023-09-14T13:33:13.170Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "78",
+    "object_repr": "Malbec Black - Malbec Perfumaria",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2023-09-14T13:33:28.317Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "77",
+    "object_repr": "Batom Líquido Diamond - Brilho",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2023-09-14T13:34:08.891Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "76",
+    "object_repr": "Glitter Líquido Multiuso - Brilho",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2023-09-14T13:34:17.066Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "75",
+    "object_repr": "Iluminador Facial - Brilho",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2023-09-14T13:34:30.360Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "74",
+    "object_repr": "Pó Compacto Facial - Brilho",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2023-09-14T13:36:29.094Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "73",
+    "object_repr": "Pó Iluminador Perfumado - Brilho",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2023-09-14T13:36:45.010Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "72",
+    "object_repr": "Pó Compacto - Rosto",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2023-09-14T13:37:14.659Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "71",
+    "object_repr": "Pó Compacto - Rosto",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2023-09-14T13:37:25.435Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "70",
+    "object_repr": "Base em Pó Mineral - Rosto",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2023-09-14T13:37:32.758Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "69",
+    "object_repr": "Base Líquida Make B. - Rosto",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2023-09-14T13:37:39.540Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "68",
+    "object_repr": "Refil Base Líquida - Rosto",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2023-09-14T13:38:39.371Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "67",
+    "object_repr": "Gloss Labial - Boca",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2023-09-14T13:38:49.059Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "66",
+    "object_repr": "Gloss Labial Rosa - Boca",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2023-09-14T13:39:02.597Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "65",
+    "object_repr": "Batom Marsala - Boca",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2023-09-14T13:39:12.410Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "64",
+    "object_repr": "Lápis Batom - Boca",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2023-09-14T13:39:21.002Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "63",
+    "object_repr": "Batom Mate - Boca",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2023-09-14T13:39:27.686Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "62",
+    "object_repr": "Blush Compacto Rosadinha - Blush",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2023-09-14T13:40:05.294Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "61",
+    "object_repr": "Paleta Blush - Blush",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2023-09-14T13:40:14.338Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "60",
+    "object_repr": "Pó Compacto Facial Multiefeitos - Blush",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2023-09-14T13:40:25.074Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "59",
+    "object_repr": "Blush em Pó - Blush",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2023-09-14T13:40:33.252Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "58",
+    "object_repr": "Blush Ameixa em Bastão - Blush",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2023-09-14T13:40:40.067Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "57",
+    "object_repr": "Sombra Mate Compacta - Olhos",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2023-09-14T13:40:52.742Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "56",
+    "object_repr": "Make B. Sombra Líquida - Olhos",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2023-09-14T13:41:03.814Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "55",
+    "object_repr": "Delineador Líquido - Olhos",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2023-09-14T13:41:12.045Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "54",
+    "object_repr": "Máscara de Cílios Scandallashes - Olhos",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2023-09-14T13:41:27.414Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "53",
+    "object_repr": "Contorno Labial Roseletis - Olhos",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2023-09-14T13:41:34.196Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "52",
+    "object_repr": "Kit Miniatura Perfumaria - Zaad",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2023-09-14T13:41:42.851Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "51",
+    "object_repr": "Zaad Arctic - Zaad",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2023-09-14T13:41:58.296Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "50",
+    "object_repr": "Espuma de Barbear Zaad - Zaad",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2023-09-14T13:42:15.004Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "49",
+    "object_repr": "Body Splash Zaad - Zaad",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2023-09-14T13:42:32.883Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "48",
+    "object_repr": "Desodorante Zaad Arctic - Zaad",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2023-09-14T13:42:57.414Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "47",
+    "object_repr": "Coleção Malbec - Malbec",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2023-09-14T13:44:09.299Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "46",
+    "object_repr": "Body Spray Malbec - Malbec",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2023-09-14T13:44:25.991Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "45",
+    "object_repr": "Desodorante Malbec X - Malbec",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2023-09-14T13:44:35.631Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "44",
+    "object_repr": "Body Spray Malbec Vert - Malbec",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2023-09-14T13:46:45.268Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "43",
+    "object_repr": "Creme Malbec Vert - Malbec",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2023-09-14T13:46:56.599Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "42",
+    "object_repr": "Liz Sublime - Liz",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2023-09-14T13:47:12.679Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "41",
+    "object_repr": "Desodorante Liz - Liz",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2023-09-14T13:47:36.131Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "40",
+    "object_repr": "Loção iluminadora Liz - Liz",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2023-09-14T13:47:43.540Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "39",
+    "object_repr": "Creme liz - Liz",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2023-09-14T13:48:44.375Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "38",
+    "object_repr": "Creme Liz Intenso - Liz",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Nome\", \"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2023-09-14T13:49:37.509Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "37",
+    "object_repr": "Body Splash Bendito Cacto - Cuide Se Bem",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2023-09-14T13:49:45.536Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "36",
+    "object_repr": "Body Splash Pessegura - Cuide Se Bem",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2023-09-14T13:49:53.926Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "35",
+    "object_repr": "Body Splash Nuvem - Cuide Se Bem",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2023-09-14T13:50:10.663Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "34",
+    "object_repr": "Body Splash Boa noite - Cuide Se Bem",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 86,
+  "fields": {
+    "action_time": "2023-09-14T13:50:33.192Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "33",
+    "object_repr": "Body Splash Biscoito - Cuide Se Bem",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 87,
+  "fields": {
+    "action_time": "2023-09-14T13:50:58.692Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "32",
+    "object_repr": "Creme Caviar - Nativa Spa",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 88,
+  "fields": {
+    "action_time": "2023-09-14T13:51:12.325Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "31",
+    "object_repr": "Creme Pitaya - Nativa Spa",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 89,
+  "fields": {
+    "action_time": "2023-09-14T13:51:19.445Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "30",
+    "object_repr": "Creme Limão e Patchouli - Nativa Spa",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 90,
+  "fields": {
+    "action_time": "2023-09-14T13:51:27.765Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "29",
+    "object_repr": "Creme Acquagel Quinoa - Nativa Spa",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 91,
+  "fields": {
+    "action_time": "2023-09-14T13:51:38.968Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "28",
+    "object_repr": "Creme Morango Ruby - Nativa Spa",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 92,
+  "fields": {
+    "action_time": "2023-09-14T13:53:27.821Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "22",
+    "object_repr": "Sérum Capilar Pós-Química - None",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 93,
+  "fields": {
+    "action_time": "2023-09-14T13:53:40.228Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "12",
+    "object_repr": "Condicionador Boti Baby - None",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 94,
+  "fields": {
+    "action_time": "2023-09-14T13:53:49.416Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "11",
+    "object_repr": "Condicionador Nativa SPA - None",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 95,
+  "fields": {
+    "action_time": "2023-09-14T13:53:57.700Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "13",
+    "object_repr": "Condicionador Dr.Botica - None",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 96,
+  "fields": {
+    "action_time": "2023-09-14T13:54:05.950Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "14",
+    "object_repr": "Creme de Pentear Match - None",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 97,
+  "fields": {
+    "action_time": "2023-09-14T13:54:13.054Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "15",
+    "object_repr": "Creme de Pentear MEN - None",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 98,
+  "fields": {
+    "action_time": "2023-09-14T13:54:40.399Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "16",
+    "object_repr": "Creme de Pentear Dr.Botica - None",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 99,
+  "fields": {
+    "action_time": "2023-09-14T13:54:50.399Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "17",
+    "object_repr": "Creme sem Enxágue Nativa - None",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 100,
+  "fields": {
+    "action_time": "2023-09-14T13:56:14.156Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "18",
+    "object_repr": "Sérum Leave-in Acetinado - None",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 101,
+  "fields": {
+    "action_time": "2023-09-14T13:56:22.274Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "19",
+    "object_repr": "Sérum Protetor Match - None",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 102,
+  "fields": {
+    "action_time": "2023-09-14T13:58:55.677Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "52",
+    "object_repr": "Kit Miniatura Perfumaria - Zaad",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 103,
+  "fields": {
+    "action_time": "2023-09-14T13:59:57.317Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "47",
+    "object_repr": "Coleção Malbec - Malbec",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 104,
+  "fields": {
+    "action_time": "2023-09-14T14:00:28.005Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "23",
+    "object_repr": "Pomada Modeladora Malbec - None",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 105,
+  "fields": {
+    "action_time": "2023-09-14T14:00:53.549Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "20",
+    "object_repr": "Gel Fixador Capilar D.r Botica - None",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 106,
+  "fields": {
+    "action_time": "2023-09-14T14:01:16.093Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "21",
+    "object_repr": "Pomada Modeladora MEN - None",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 107,
+  "fields": {
+    "action_time": "2023-09-14T14:01:40.982Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "24",
+    "object_repr": "Combo Match Crescer Cabelo - None",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 108,
+  "fields": {
+    "action_time": "2023-09-14T14:01:55.926Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "25",
+    "object_repr": "Combo Banho Boti Baby - None",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 109,
+  "fields": {
+    "action_time": "2023-09-14T14:02:04.829Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "26",
+    "object_repr": "Combo Match SOS Cauterização Pós-Química - None",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 110,
+  "fields": {
+    "action_time": "2023-09-14T14:02:14.246Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "27",
+    "object_repr": "Combo Cuide-se Bem Feira Pasta de Abacate - None",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 111,
+  "fields": {
+    "action_time": "2023-09-14T14:02:30.508Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "10",
+    "object_repr": "Condicionador Cuide-se Bem - None",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 112,
+  "fields": {
+    "action_time": "2023-09-14T14:02:34.900Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "9",
+    "object_repr": "Shampoo Boti Baby - None",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 113,
+  "fields": {
+    "action_time": "2023-09-14T14:02:40.221Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "8",
+    "object_repr": "Shampoo Sophie - None",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 114,
+  "fields": {
+    "action_time": "2023-09-14T14:02:45.821Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "7",
+    "object_repr": "Shampoo Cuide-se Bem Feira - None",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 115,
+  "fields": {
+    "action_time": "2023-09-14T14:02:50.895Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "6",
+    "object_repr": "Shampoo Match - None",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Marca\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add document",
+    "content_type": 6,
+    "codename": "add_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change document",
+    "content_type": 6,
+    "codename": "change_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete document",
+    "content_type": 6,
+    "codename": "delete_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view document",
+    "content_type": 6,
+    "codename": "view_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add image",
+    "content_type": 7,
+    "codename": "add_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change image",
+    "content_type": 7,
+    "codename": "change_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete image",
+    "content_type": 7,
+    "codename": "delete_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view image",
+    "content_type": 7,
+    "codename": "view_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add Usuário",
+    "content_type": 8,
+    "codename": "add_usuario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change Usuário",
+    "content_type": 8,
+    "codename": "change_usuario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete Usuário",
+    "content_type": 8,
+    "codename": "delete_usuario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view Usuário",
+    "content_type": 8,
+    "codename": "view_usuario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add carrinho",
+    "content_type": 9,
+    "codename": "add_carrinho"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change carrinho",
+    "content_type": 9,
+    "codename": "change_carrinho"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete carrinho",
+    "content_type": 9,
+    "codename": "delete_carrinho"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view carrinho",
+    "content_type": 9,
+    "codename": "view_carrinho"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add cliente",
+    "content_type": 10,
+    "codename": "add_cliente"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change cliente",
+    "content_type": 10,
+    "codename": "change_cliente"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete cliente",
+    "content_type": 10,
+    "codename": "delete_cliente"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view cliente",
+    "content_type": 10,
+    "codename": "view_cliente"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add compra",
+    "content_type": 11,
+    "codename": "add_compra"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change compra",
+    "content_type": 11,
+    "codename": "change_compra"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete compra",
+    "content_type": 11,
+    "codename": "delete_compra"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view compra",
+    "content_type": 11,
+    "codename": "view_compra"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add forma pagamento",
+    "content_type": 12,
+    "codename": "add_formapagamento"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change forma pagamento",
+    "content_type": 12,
+    "codename": "change_formapagamento"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete forma pagamento",
+    "content_type": 12,
+    "codename": "delete_formapagamento"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view forma pagamento",
+    "content_type": 12,
+    "codename": "view_formapagamento"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add marca",
+    "content_type": 13,
+    "codename": "add_marca"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change marca",
+    "content_type": 13,
+    "codename": "change_marca"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete marca",
+    "content_type": 13,
+    "codename": "delete_marca"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view marca",
+    "content_type": 13,
+    "codename": "view_marca"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add produto",
+    "content_type": 14,
+    "codename": "add_produto"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change produto",
+    "content_type": 14,
+    "codename": "change_produto"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete produto",
+    "content_type": 14,
+    "codename": "delete_produto"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view produto",
+    "content_type": 14,
+    "codename": "view_produto"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can add item carrinho",
+    "content_type": 15,
+    "codename": "add_itemcarrinho"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can change item carrinho",
+    "content_type": 15,
+    "codename": "change_itemcarrinho"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can delete item carrinho",
+    "content_type": 15,
+    "codename": "delete_itemcarrinho"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can view item carrinho",
+    "content_type": 15,
+    "codename": "view_itemcarrinho"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 61,
+  "fields": {
+    "name": "Can add favorito",
+    "content_type": 16,
+    "codename": "add_favorito"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 62,
+  "fields": {
+    "name": "Can change favorito",
+    "content_type": 16,
+    "codename": "change_favorito"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 63,
+  "fields": {
+    "name": "Can delete favorito",
+    "content_type": 16,
+    "codename": "delete_favorito"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 64,
+  "fields": {
+    "name": "Can view favorito",
+    "content_type": 16,
+    "codename": "view_favorito"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "uploader",
+    "model": "document"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "uploader",
+    "model": "image"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "usuario",
+    "model": "usuario"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "ACosmeticos",
+    "model": "carrinho"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "ACosmeticos",
+    "model": "cliente"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "ACosmeticos",
+    "model": "compra"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "ACosmeticos",
+    "model": "formapagamento"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "ACosmeticos",
+    "model": "marca"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "ACosmeticos",
+    "model": "produto"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 15,
+  "fields": {
+    "app_label": "ACosmeticos",
+    "model": "itemcarrinho"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 16,
+  "fields": {
+    "app_label": "ACosmeticos",
+    "model": "favorito"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "7bgqrd4jxdw3qqrphih4vkyef9g8wocs",
+  "fields": {
+    "session_data": ".eJxVjDEOAiEURO9CbQggCFja7xnI__CRVQPJslsZ7y6bbKHNFG_ezJsF2NYStk5LmBO7MslOvwwhPqnuRXpAvTceW12XGfmu8KPtfGqJXrfD_Tso0MtYRwvklc0gtBuZrRUKpQaJiElnkN6lmC_SeMqgySgjBKnz4FFqpxz7fAEAKTgo:1qZXuj:H32vwOscOLCTnkKx_kEoiNU2tkjQD8H5dCdk5HVc38M",
+    "expire_date": "2023-09-08T14:35:53.236Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "7zrv5qjrlv5ztvut58izpd3mo26z75g3",
+  "fields": {
+    "session_data": ".eJxVjDEOAiEURO9CbQggCFja7xnI__CRVQPJslsZ7y6bbKHNFG_ezJsF2NYStk5LmBO7MslOvwwhPqnuRXpAvTceW12XGfmu8KPtfGqJXrfD_Tso0MtYRwvklc0gtBuZrRUKpQaJiElnkN6lmC_SeMqgySgjBKnz4FFqpxz7fAEAKTgo:1qiHF3:asg8LEFUNeGpvX7uqNhGh8ylMusdksHEAfvZmNhe8Jo",
+    "expire_date": "2023-10-02T16:36:57.261Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "k7m770pan0tlp9ngovplms9niq9iq9hh",
+  "fields": {
+    "session_data": ".eJxVjDEOAiEURO9CbQggCFja7xnI__CRVQPJslsZ7y6bbKHNFG_ezJsF2NYStk5LmBO7MslOvwwhPqnuRXpAvTceW12XGfmu8KPtfGqJXrfD_Tso0MtYRwvklc0gtBuZrRUKpQaJiElnkN6lmC_SeMqgySgjBKnz4FFqpxz7fAEAKTgo:1qZZmQ:U9NncNV1Et3hAk1CKAI_4VjDusHks5G47ptQbKwVrIs",
+    "expire_date": "2023-09-08T16:35:26.657Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "y5xe05ezpz5vt6p7inyl1w6k0rcvcha8",
+  "fields": {
+    "session_data": ".eJxVjDEOAiEURO9CbQggCFja7xnI__CRVQPJslsZ7y6bbKHNFG_ezJsF2NYStk5LmBO7MslOvwwhPqnuRXpAvTceW12XGfmu8KPtfGqJXrfD_Tso0MtYRwvklc0gtBuZrRUKpQaJiElnkN6lmC_SeMqgySgjBKnz4FFqpxz7fAEAKTgo:1qgmDu:B9SjQeqPcHaVLjo_9RRwBMrtYoJKwrUuWjs1pXLt26U",
+    "expire_date": "2023-09-28T13:17:34.328Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 1,
+  "fields": {
+    "attachment_key": "68cccd2f-d4fc-44f1-82d0-5976642ebc5d",
+    "public_id": "f399defa-067c-4208-b4d9-d997cfae82f3",
+    "file": "images/f399defa-067c-4208-b4d9-d997cfae82f3.png",
+    "description": "",
+    "uploaded_on": "2023-08-25T14:50:28.670Z"
+  }
+},
+{
+  "model": "usuario.usuario",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$jzvvgVjv6ospvEIfu5iVJT$vX06AvsGjh5A+bj+v4dFvplpkpfRpMUDRkhm1MkWRXk=",
+    "last_login": "2023-09-18T16:36:57.160Z",
+    "is_superuser": true,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-08-25T14:35:49.390Z",
+    "email": "acosmeticos@admin.com",
+    "cpf": null,
+    "telefone": null,
+    "data_nascimento": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "ACosmeticos.marca",
+  "pk": 2,
+  "fields": {
+    "tipo_do_Produto": "Perfumaria",
+    "nome_marcas": "Oboticario"
+  }
+},
+{
+  "model": "ACosmeticos.marca",
+  "pk": 3,
+  "fields": {
+    "tipo_do_Produto": "Corpo",
+    "nome_marcas": "Oboticario"
+  }
+},
+{
+  "model": "ACosmeticos.marca",
+  "pk": 4,
+  "fields": {
+    "tipo_do_Produto": "Cabelos",
+    "nome_marcas": "Oboticario"
+  }
+},
+{
+  "model": "ACosmeticos.marca",
+  "pk": 6,
+  "fields": {
+    "tipo_do_Produto": "Maquiagem",
+    "nome_marcas": "Oboticario"
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 6,
+  "fields": {
+    "nome": "Shampoo Match",
+    "descricao": "Respeito aos Cachos 250ml",
+    "preco": "27.90",
+    "marca": 4,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 7,
+  "fields": {
+    "nome": "Shampoo Cuide-se Bem Feira",
+    "descricao": "Vinagre de Maçã 230ml",
+    "preco": "19.90",
+    "marca": 4,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 8,
+  "fields": {
+    "nome": "Shampoo Sophie",
+    "descricao": "Club Antiqueda 250ml",
+    "preco": "45.70",
+    "marca": 4,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 9,
+  "fields": {
+    "nome": "Shampoo Boti Baby",
+    "descricao": "200ml",
+    "preco": "37.90",
+    "marca": 4,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 10,
+  "fields": {
+    "nome": "Condicionador Cuide-se Bem",
+    "descricao": "Pasta de Abacate Feira 170ml",
+    "preco": "19.90",
+    "marca": 4,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 11,
+  "fields": {
+    "nome": "Condicionador Nativa SPA",
+    "descricao": "Antiqueda 250ml",
+    "preco": "49.90",
+    "marca": 4,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 12,
+  "fields": {
+    "nome": "Condicionador Boti Baby",
+    "descricao": "200ml",
+    "preco": "49.90",
+    "marca": 4,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 13,
+  "fields": {
+    "nome": "Condicionador Dr.Botica",
+    "descricao": "Poção do Brilho 200ml",
+    "preco": "34.90",
+    "marca": 4,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 14,
+  "fields": {
+    "nome": "Creme de Pentear Match",
+    "descricao": "Esquadrão do Brilho 150ml",
+    "preco": "49.90",
+    "marca": 4,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 15,
+  "fields": {
+    "nome": "Creme de Pentear MEN",
+    "descricao": "150ml",
+    "preco": "37.90",
+    "marca": 4,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 16,
+  "fields": {
+    "nome": "Creme de Pentear Dr.Botica",
+    "descricao": "Poção Tira Nó 150g",
+    "preco": "35.90",
+    "marca": 4,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 17,
+  "fields": {
+    "nome": "Creme sem Enxágue Nativa",
+    "descricao": "Ameixa 150ml",
+    "preco": "41.90",
+    "marca": 4,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 18,
+  "fields": {
+    "nome": "Sérum Leave-in Acetinado",
+    "descricao": "Capilar Lily 100ml",
+    "preco": "59.90",
+    "marca": 4,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 19,
+  "fields": {
+    "nome": "Sérum Protetor Match",
+    "descricao": "Cream Liga dos Coloridos 50ml",
+    "preco": "44.90",
+    "marca": 4,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 20,
+  "fields": {
+    "nome": "Gel Fixador Capilar D.r Botica",
+    "descricao": "Poção de Modelar 80g",
+    "preco": "35.90",
+    "marca": 4,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 21,
+  "fields": {
+    "nome": "Pomada Modeladora MEN",
+    "descricao": "Alta Fixação 100g",
+    "preco": "53.90",
+    "marca": 4,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 22,
+  "fields": {
+    "nome": "Sérum Capilar Pós-Química",
+    "descricao": "SOS Cauterização 50ml",
+    "preco": "59.90",
+    "marca": 4,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 23,
+  "fields": {
+    "nome": "Pomada Modeladora Malbec",
+    "descricao": "Malbec Club 85g",
+    "preco": "55.90",
+    "marca": 4,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 24,
+  "fields": {
+    "nome": "Combo Match Crescer Cabelo",
+    "descricao": "Malbec Club 85g",
+    "preco": "181.90",
+    "marca": 4,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 25,
+  "fields": {
+    "nome": "Combo Banho Boti Baby",
+    "descricao": "Shampoo + Condicionador",
+    "preco": "45.90",
+    "marca": 4,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 26,
+  "fields": {
+    "nome": "Combo Match SOS Cauterização Pós-Química",
+    "descricao": "Malbec Club 85g",
+    "preco": "259.90",
+    "marca": 4,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 27,
+  "fields": {
+    "nome": "Combo Cuide-se Bem Feira Pasta de Abacate",
+    "descricao": "Malbec Club 85g",
+    "preco": "38.80",
+    "marca": 4,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 28,
+  "fields": {
+    "nome": "Creme Morango Ruby",
+    "descricao": "Loção Desodorante Corporal 400ml",
+    "preco": "74.90",
+    "marca": 3,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 29,
+  "fields": {
+    "nome": "Creme Acquagel Quinoa",
+    "descricao": "Loção Desodorante Corporal 250g",
+    "preco": "69.90",
+    "marca": 3,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 30,
+  "fields": {
+    "nome": "Creme Limão e Patchouli",
+    "descricao": "Loção Desodorante Corporal 400ml",
+    "preco": "74.90",
+    "marca": 3,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 31,
+  "fields": {
+    "nome": "Creme Pitaya",
+    "descricao": "Loção Desodorante Corporal 250g",
+    "preco": "59.90",
+    "marca": 3,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 32,
+  "fields": {
+    "nome": "Creme Caviar",
+    "descricao": "Loção Desodorante Corporal 400ml",
+    "preco": "74.90",
+    "marca": 3,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 33,
+  "fields": {
+    "nome": "Body Splash Biscoito",
+    "descricao": "Desodorante Colônia 100ml",
+    "preco": "74.90",
+    "marca": 3,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 34,
+  "fields": {
+    "nome": "Body Splash Boa noite",
+    "descricao": "Desodorante Colônia 100ml",
+    "preco": "69.90",
+    "marca": 3,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 35,
+  "fields": {
+    "nome": "Body Splash Nuvem",
+    "descricao": "Desodorante Colônia 100ml",
+    "preco": "69.90",
+    "marca": 3,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 36,
+  "fields": {
+    "nome": "Body Splash Pessegura",
+    "descricao": "Desodorante Colônia 100ml",
+    "preco": "69.90",
+    "marca": 3,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 37,
+  "fields": {
+    "nome": "Body Splash Bendito Cacto",
+    "descricao": "Desodorante Colônia 100ml",
+    "preco": "69.90",
+    "marca": 3,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 38,
+  "fields": {
+    "nome": "Creme Liz Intenso",
+    "descricao": "Hidratante Desodorante Corpora 250g",
+    "preco": "59.90",
+    "marca": 3,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 39,
+  "fields": {
+    "nome": "Creme liz",
+    "descricao": "Hidratante Desodorante Corpora 250g",
+    "preco": "59.90",
+    "marca": 3,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 40,
+  "fields": {
+    "nome": "Loção iluminadora Liz",
+    "descricao": "Hidratante Desodorante Corporal 200ml",
+    "preco": "33.90",
+    "marca": 3,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 41,
+  "fields": {
+    "nome": "Desodorante Liz",
+    "descricao": "Hidratante Desodorante Corporal 200ml",
+    "preco": "33.80",
+    "marca": 3,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 42,
+  "fields": {
+    "nome": "Liz Sublime",
+    "descricao": "Desodorante Colônia 10ml",
+    "preco": "39.90",
+    "marca": 3,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 43,
+  "fields": {
+    "nome": "Creme Malbec Vert",
+    "descricao": "Loção Hidratante Desodorante 200ml",
+    "preco": "54.90",
+    "marca": 3,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 44,
+  "fields": {
+    "nome": "Body Spray Malbec Vert",
+    "descricao": "Desodorante Colônia 100ml",
+    "preco": "39.90",
+    "marca": 3,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 45,
+  "fields": {
+    "nome": "Desodorante Malbec X",
+    "descricao": "Antitranspirante Aerossol 125ml",
+    "preco": "33.90",
+    "marca": 3,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 46,
+  "fields": {
+    "nome": "Body Spray Malbec",
+    "descricao": "Desodorante Colônia 100ml",
+    "preco": "39.90",
+    "marca": 3,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 47,
+  "fields": {
+    "nome": "Coleção Malbec",
+    "descricao": "Experimentação (7 itens)",
+    "preco": "44.90",
+    "marca": 3,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 48,
+  "fields": {
+    "nome": "Desodorante Zaad Arctic",
+    "descricao": "Antitranspirante Aerossol 75g",
+    "preco": "33.90",
+    "marca": 3,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 49,
+  "fields": {
+    "nome": "Body Splash Zaad",
+    "descricao": "Desodorante clônia 200ml",
+    "preco": "87.90",
+    "marca": 3,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 50,
+  "fields": {
+    "nome": "Espuma de Barbear Zaad",
+    "descricao": "Espuma Hidratante 200ml",
+    "preco": "61.90",
+    "marca": 3,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 51,
+  "fields": {
+    "nome": "Zaad Arctic",
+    "descricao": "Eau De Parfum 10ml",
+    "preco": "49.90",
+    "marca": 2,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 52,
+  "fields": {
+    "nome": "Kit Miniatura Perfumaria",
+    "descricao": "Masculina (4 itens)",
+    "preco": "59.90",
+    "marca": 3,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 53,
+  "fields": {
+    "nome": "Contorno Labial Roseletis",
+    "descricao": "Quem Disse, Berenice? 1,1g",
+    "preco": "29.90",
+    "marca": 6,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 54,
+  "fields": {
+    "nome": "Máscara de Cílios Scandallashes",
+    "descricao": "Make B. 10g",
+    "preco": "72.90",
+    "marca": 6,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 55,
+  "fields": {
+    "nome": "Delineador Líquido",
+    "descricao": "Para Olhos Preto Make B.",
+    "preco": "51.90",
+    "marca": 6,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 56,
+  "fields": {
+    "nome": "Make B. Sombra Líquida",
+    "descricao": "Femme Extreme 5,6 ml - Marsala",
+    "preco": "40.90",
+    "marca": 6,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 57,
+  "fields": {
+    "nome": "Sombra Mate Compacta",
+    "descricao": "by Manu Gavassi",
+    "preco": "26.30",
+    "marca": 6,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 58,
+  "fields": {
+    "nome": "Blush Ameixa em Bastão",
+    "descricao": "intense by Manu Gavassi 5,5g",
+    "preco": "28.90",
+    "marca": 6,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 59,
+  "fields": {
+    "nome": "Blush em Pó",
+    "descricao": "Blush em Pó",
+    "preco": "59.90",
+    "marca": 6,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 60,
+  "fields": {
+    "nome": "Pó Compacto Facial Multiefeitos",
+    "descricao": "Napolitano Quem Disse, Berenice? 18g",
+    "preco": "89.90",
+    "marca": 6,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 61,
+  "fields": {
+    "nome": "Paleta Blush",
+    "descricao": "Cherry Make B. Hit, 8g",
+    "preco": "83.90",
+    "marca": 6,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 62,
+  "fields": {
+    "nome": "Blush Compacto Rosadinha",
+    "descricao": "Quem Disse, Berenice? 2g",
+    "preco": "59.90",
+    "marca": 6,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 63,
+  "fields": {
+    "nome": "Batom Mate",
+    "descricao": "Brown Stone Make B. 3,6 g",
+    "preco": "56.90",
+    "marca": 6,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 64,
+  "fields": {
+    "nome": "Lápis Batom",
+    "descricao": "Instalip Vinho Intense 1,2g",
+    "preco": "24.90",
+    "marca": 6,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 65,
+  "fields": {
+    "nome": "Batom Marsala",
+    "descricao": "Intense Stick Glossy 3,2g",
+    "preco": "31.90",
+    "marca": 6,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 66,
+  "fields": {
+    "nome": "Gloss Labial Rosa",
+    "descricao": "Tutti Frutti Intense Bubbaloo 5ml",
+    "preco": "39.90",
+    "marca": 6,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 67,
+  "fields": {
+    "nome": "Gloss Labial",
+    "descricao": "Sweet Nude Make B. 5 ml",
+    "preco": "57.90",
+    "marca": 6,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 68,
+  "fields": {
+    "nome": "Refil Base Líquida",
+    "descricao": "Cushion Cor 60 Make B. 14g",
+    "preco": "71.90",
+    "marca": 6,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 69,
+  "fields": {
+    "nome": "Base Líquida Make B.",
+    "descricao": "Glycolic TX Cor 210 30g",
+    "preco": "79.90",
+    "marca": 6,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 70,
+  "fields": {
+    "nome": "Base em Pó Mineral",
+    "descricao": "Cor 20 Make B. 5,5g",
+    "preco": "83.90",
+    "marca": 6,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 71,
+  "fields": {
+    "nome": "Pó Compacto",
+    "descricao": "Facial Cor 30 Intense 5g",
+    "preco": "59.90",
+    "marca": 6,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 72,
+  "fields": {
+    "nome": "Pó Compacto",
+    "descricao": "Facial Cor 30 Intense 5g",
+    "preco": "59.90",
+    "marca": 6,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 73,
+  "fields": {
+    "nome": "Pó Iluminador Perfumado",
+    "descricao": "Rosto e Corpo Make B. Rosé 12g",
+    "preco": "95.90",
+    "marca": 6,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 74,
+  "fields": {
+    "nome": "Pó Compacto Facial",
+    "descricao": "Iluminador Gold Make B. 5,4g",
+    "preco": "76.90",
+    "marca": 6,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 75,
+  "fields": {
+    "nome": "Iluminador Facial",
+    "descricao": "Perolado em Bastão Intense 5,5g",
+    "preco": "45.90",
+    "marca": 6,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 76,
+  "fields": {
+    "nome": "Glitter Líquido Multiuso",
+    "descricao": "Brancotix Quem Disse, Berenice? 4ml",
+    "preco": "49.90",
+    "marca": 6,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 77,
+  "fields": {
+    "nome": "Batom Líquido Diamond",
+    "descricao": "Dourado Luxury Make B. 5ml",
+    "preco": "59.90",
+    "marca": 6,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 78,
+  "fields": {
+    "nome": "Malbec Black",
+    "descricao": "Desodorante Colônia 100ml",
+    "preco": "209.90",
+    "marca": 2,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 79,
+  "fields": {
+    "nome": "Malbec Flame",
+    "descricao": "Desodorante Colônia 100ml",
+    "preco": "209.90",
+    "marca": 2,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 80,
+  "fields": {
+    "nome": "Malbec Club Intenso",
+    "descricao": "Desodorante Colônia 100ml",
+    "preco": "209.90",
+    "marca": 2,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 81,
+  "fields": {
+    "nome": "Malbec",
+    "descricao": "Desodorante Colônia 100ml",
+    "preco": "209.90",
+    "marca": 2,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 82,
+  "fields": {
+    "nome": "Malbec X",
+    "descricao": "Desodorante Colônia 100ml",
+    "preco": "209.90",
+    "marca": 2,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 83,
+  "fields": {
+    "nome": "Coffee Woman Seduction",
+    "descricao": "Desodorante Colônia 100ml",
+    "preco": "179.90",
+    "marca": 2,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 84,
+  "fields": {
+    "nome": "Coffee Woman Duo",
+    "descricao": "Desodorante Colônia 100ml",
+    "preco": "179.90",
+    "marca": 2,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 85,
+  "fields": {
+    "nome": "Coffee Man Duo",
+    "descricao": "Desodorante Colônia 100ml",
+    "preco": "179.90",
+    "marca": 2,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 86,
+  "fields": {
+    "nome": "Coffee Man",
+    "descricao": "Desodorante Colônia 100ml",
+    "preco": "179.90",
+    "marca": 2,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 87,
+  "fields": {
+    "nome": "Coffee Woman Lucky",
+    "descricao": "Desodorante Colônia 100ml",
+    "preco": "179.90",
+    "marca": 2,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 88,
+  "fields": {
+    "nome": "Dr.Botica Poção da Aventura",
+    "descricao": "Colônia infantil 120ml",
+    "preco": "84.90",
+    "marca": 2,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 89,
+  "fields": {
+    "nome": "Dr.Botica Poção da Coragem",
+    "descricao": "Colônia infantil 120ml",
+    "preco": "84.90",
+    "marca": 2,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 90,
+  "fields": {
+    "nome": "Dr.Botica Poção do Coração",
+    "descricao": "Colônia infantil 120ml",
+    "preco": "84.90",
+    "marca": 2,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 91,
+  "fields": {
+    "nome": "Dr.Botica Poção da Amizade",
+    "descricao": "Colônia infantil 120ml",
+    "preco": "84.90",
+    "marca": 2,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 92,
+  "fields": {
+    "nome": "Dr.Botica Poção da Força",
+    "descricao": "Colônia infantil 120ml",
+    "preco": "84.90",
+    "marca": 2,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 93,
+  "fields": {
+    "nome": "Egeo Choc",
+    "descricao": "Desodorante Colônia 90ml",
+    "preco": "279.90",
+    "marca": 2,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 94,
+  "fields": {
+    "nome": "Egeo Bomb Black",
+    "descricao": "Desodorante Colônia 90ml",
+    "preco": "279.90",
+    "marca": 2,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 95,
+  "fields": {
+    "nome": "Egeo Original",
+    "descricao": "Desodorante Colônia 90ml",
+    "preco": "279.90",
+    "marca": 2,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 96,
+  "fields": {
+    "nome": "Egeo Red",
+    "descricao": "Desodorante Colônia 90ml",
+    "preco": "279.90",
+    "marca": 2,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 97,
+  "fields": {
+    "nome": "Love Spacy Vibe",
+    "descricao": "Desodorante Colônia 90ml",
+    "preco": "279.90",
+    "marca": 2,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 98,
+  "fields": {
+    "nome": "Lily Lumière",
+    "descricao": "Eau de Parfum 75ml",
+    "preco": "279.90",
+    "marca": 2,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 99,
+  "fields": {
+    "nome": "Lily Absolute",
+    "descricao": "Eau de Parfum 75ml",
+    "preco": "279.90",
+    "marca": 2,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 100,
+  "fields": {
+    "nome": "Lily",
+    "descricao": "Eau de Parfum 75ml",
+    "preco": "279.90",
+    "marca": 2,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 101,
+  "fields": {
+    "nome": "Lily Le",
+    "descricao": "Eau de Parfum 75ml",
+    "preco": "279.90",
+    "marca": 2,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 102,
+  "fields": {
+    "nome": "Love Lily",
+    "descricao": "Eau de Parfum 75ml",
+    "preco": "279.90",
+    "marca": 2,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 103,
+  "fields": {
+    "nome": "Zaad Expedition",
+    "descricao": "Eau De Parfum 95ml",
+    "preco": "284.90",
+    "marca": 2,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 104,
+  "fields": {
+    "nome": "Botica 214 Verano en Firenze",
+    "descricao": "Eau de Parfum Floral Frutal 75 ml",
+    "preco": "189.90",
+    "marca": 2,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 105,
+  "fields": {
+    "nome": "Uomini Black",
+    "descricao": "Desodorante Colônia 100ml",
+    "preco": "164.90",
+    "marca": 2,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 106,
+  "fields": {
+    "nome": "Dr. Botica Poção da Aventura",
+    "descricao": "Colônia Infantil 120ml",
+    "preco": "84.90",
+    "marca": 2,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 107,
+  "fields": {
+    "nome": "Malbec Signature",
+    "descricao": "Eau de Parfum 90ml",
+    "preco": "309.90",
+    "marca": 2,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 108,
+  "fields": {
+    "nome": "Egeo Choc",
+    "descricao": "Desodorante Colônia 90ml",
+    "preco": "129.90",
+    "marca": 2,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 109,
+  "fields": {
+    "nome": "Capricho Tenho Super Poderes",
+    "descricao": "Desodorante Colônia 50ml",
+    "preco": "89.90",
+    "marca": 2,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+},
+{
+  "model": "ACosmeticos.produto",
+  "pk": 110,
+  "fields": {
+    "nome": "Dr. Botica Poção da Aventura",
+    "descricao": "Colônia Infantil 120ml",
+    "preco": "84.90",
+    "marca": 2,
+    "quantia": 10,
+    "validade": "2023-08-27",
+    "capa": null
+  }
+}
+]
