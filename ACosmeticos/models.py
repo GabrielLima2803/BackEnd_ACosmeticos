@@ -111,5 +111,3 @@ class FormaPagamento(models.Model):
 
     def __str__(self):
         return self.tipo_de_pagamento
-    
-
