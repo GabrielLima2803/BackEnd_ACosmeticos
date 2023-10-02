@@ -57,7 +57,13 @@ class Compra(models.Model):
     usuario = models.ForeignKey(Usuario, on_delete=models.PROTECT, related_name="compras")
     cliente = models.ForeignKey(Cliente, on_delete=models.CASCADE)
     status = models.IntegerField(choices=StatusCompra.choices, default=StatusCompra.CARRINHO)
-
+    @property
+    def total(self):
+        # total = 0
+        # for item in self.itens.all():
+        #     total += item.livro.preco * item.quantidade
+        # return total
+        return sum(item.produto.preco * item.quantidade for item in self.itens.all())
 
 # Produto
 
@@ -89,9 +95,8 @@ class ItemCarrinho(models.Model):
     compra = models.ForeignKey(Compra, on_delete=models.CASCADE, related_name="itens")
     produto = models.ForeignKey(Produto, on_delete=models.PROTECT, related_name="produtos")
     quantidade = models.PositiveIntegerField(default=1)
-
-    def __str__(self):
-        return f"{self.quantidade}"
+    def get_total(self, instance):
+        return instance.quantidade * instance.produto.preco
 
 # Criação Favorito
 

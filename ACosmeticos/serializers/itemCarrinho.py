@@ -8,3 +8,7 @@ class ItemCarrinhoSerializer(ModelSerializer):
         model = ItemCarrinho
         fields = "__all__"
         depth = 1 
+
+total = SerializerMethodField()
+def get_total(self, instance):
+    return instance.quantidade * instance.produto.preco
