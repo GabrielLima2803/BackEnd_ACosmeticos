@@ -41,7 +41,7 @@ class Marca(models.Model):
 
 class Carrinho(models.Model):
     cliente = models.ForeignKey(Cliente, on_delete=models.CASCADE)
-    total_da_compra = models.DecimalField(max_digits=10, decimal_places=2, default=0.00)
+    total = models.DecimalField(max_digits=10, decimal_places=2, default=0.00)
     # data_do_pedido = models.DateTimeField(auto_created=True)
 
     def __str__(self):
@@ -88,15 +88,12 @@ class Produto(models.Model):
     def __str__(self):
        return f"{self.nome} - {self.marca}"
 
-# Criação ItemCarrinho
+# Criação ItemCarrinho :)
     
 class ItemCarrinho(models.Model):
-    carrinho = models.ForeignKey(Carrinho, on_delete=models.CASCADE)
     compra = models.ForeignKey(Compra, on_delete=models.CASCADE, related_name="itens")
-    produto = models.ForeignKey(Produto, on_delete=models.PROTECT, related_name="produtos")
+    produto = models.ForeignKey(Produto, on_delete=models.PROTECT, related_name="+")
     quantidade = models.PositiveIntegerField(default=1)
-    def get_total(self, instance):
-        return instance.quantidade * instance.produto.preco
 
 # Criação Favorito
 
