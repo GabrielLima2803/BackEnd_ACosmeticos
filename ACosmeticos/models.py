@@ -31,11 +31,12 @@ class Cliente(models.Model):
 
         # Criação Marcas
 class Marca(models.Model):
-    tipo_do_Produto = models.CharField(max_length=50)
     nome_marcas = models.CharField(max_length=100)
+    tipo_do_Produto = models.CharField(max_length=50)
+    sub_produto = models.CharField(max_length=100, default='valor_padrao_aqui')
 
     def __str__(self):
-       return f"{self.nome_marcas} - {self.tipo_do_Produto}"
+       return f"{self.sub_produto} - {self.tipo_do_Produto}  "
 
 # Criação Carrinho
 
