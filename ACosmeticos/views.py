@@ -13,8 +13,6 @@ from ACosmeticos.serializers import ProdutoSerializer, MarcasSerializer, ItemCar
 class ProdutoViewSet(ModelViewSet):
     queryset = Produto.objects.all()
     serializer_class = ProdutoSerializer
-    filter_backends = [DjangoFilterBackend]
-    filterset_fields = ["marca__descricao"]
     # permission_classes = [IsAuthenticated]
 
 class MarcasViewSet(ModelViewSet):
