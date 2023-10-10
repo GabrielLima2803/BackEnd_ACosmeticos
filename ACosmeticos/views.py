@@ -13,12 +13,10 @@ from ACosmeticos.serializers import ProdutoSerializer, MarcasSerializer, ItemCar
 class ProdutoViewSet(ModelViewSet):
     queryset = Produto.objects.all()
     serializer_class = ProdutoSerializer
-    # permission_classes = [IsAuthenticated]
 
 class MarcasViewSet(ModelViewSet):
     queryset = Marca.objects.all()
     serializer_class = MarcasSerializer
-    # permission_classes = [IsAuthenticated]
 
 class ItemCarrinhoViewSet(ModelViewSet):
     queryset = ItemCarrinho.objects.all()
