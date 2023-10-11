@@ -2,8 +2,8 @@ from django.contrib import admin
 from django.urls import include, path
 from django.urls import path
 
-from rest_framework.routers import DefaultRouter
 from usuario.router import router as usuario_router
+from rest_framework.routers import DefaultRouter
 
 from rest_framework_simplejwt.views import (
     TokenObtainPairView,
@@ -57,7 +57,4 @@ urlpatterns = [
 
 ] + static(settings.MEDIA_ENDPOINT, document_root=settings.MEDIA_ROOT)
 
-
-
-...
 

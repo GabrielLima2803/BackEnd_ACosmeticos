@@ -21,7 +21,7 @@ class Cliente(models.Model):
     class Meta:
         verbose_name_plural = "Clientes"
 
- # importar o modelo Cliente do seu aplicativo de clientes
+    # importar o modelo Cliente do seu aplicativo de clientes
 
     def __str__(self):
         return self.nome
@@ -33,10 +33,10 @@ class Cliente(models.Model):
 class Marca(models.Model):
     nome_marcas = models.CharField(max_length=100)
     tipo_do_Produto = models.CharField(max_length=50)
-    sub_produto = models.CharField(max_length=100, default='valor_padrao_aqui')
+    # sub_produto = models.CharField(max_length=100, default='valor_padrao_aqui')
 
     def __str__(self):
-       return f"{self.sub_produto} - {self.tipo_do_Produto}  "
+       return f"{self.tipo_do_Produto}  "
 
 # Criação Carrinho
 
@@ -60,11 +60,10 @@ class Compra(models.Model):
     status = models.IntegerField(choices=StatusCompra.choices, default=StatusCompra.CARRINHO)
     @property
     def total(self):
-        # total = 0
-        # for item in self.itens.all():
-        #     total += item.livro.preco * item.quantidade
-        # return total
-        return sum(item.produto.preco * item.quantidade for item in self.itens.all())
+        total = 0
+        for item in self.itens.all():
+            total += item.produto.preco * item.quantidade
+        return total
 
 # Produto
 
@@ -83,20 +82,21 @@ class Produto(models.Model):
         null=True,
         blank=True,
         default=None,
-    )
-
-    
+    )    
     def __str__(self):
        return f"{self.nome} - {self.marca}"
 
 # Criação ItemCarrinho :)
     
 class ItemCarrinho(models.Model):
-    compra = models.ForeignKey(Compra, on_delete=models.CASCADE, related_name="itens")
+    # compra = models.ForeignKey(Compra, on_delete=models.CASCADE, related_name="itens")
     carrinho = models.ForeignKey(Carrinho, on_delete=models.CASCADE, default=None)
     produto = models.ForeignKey(Produto, on_delete=models.PROTECT, related_name="+")
     quantidade = models.PositiveIntegerField(default=1)
 
+class CompraItem(models.Model):
+    produto = models.ForeignKey(Produto, on_delete=models.CASCADE)
+    compra = models.ForeignKey(Compra, on_delete=models.CASCADE)
 # Criação Favorito
 
 class Favorito(models.Model):
