@@ -4,7 +4,7 @@ from django.contrib import admin
 
 from django.contrib import admin
 
-from ACosmeticos.models import Cliente, Carrinho, Marca, Produto, ItemCarrinho, Favorito, FormaPagamento, Compra, CompraItem
+from ACosmeticos.models import Cliente, Carrinho, Marca, Produto, ItemCarrinho, Favorito, FormaPagamento
 
 admin.site.register(Cliente)
 admin.site.register(Carrinho)
@@ -14,13 +14,6 @@ admin.site.register(ItemCarrinho)
 admin.site.register(Favorito)
 admin.site.register(FormaPagamento)
 
-
-class ItensInline(admin.TabularInline):
-    model = CompraItem
-
-@admin.register(Compra)
-class CompraAdmin(admin.ModelAdmin):
-    inlines = (ItensInline,)
 
 admin.register(Cliente)
 class ClienteAdmin(admin.ModelAdmin):

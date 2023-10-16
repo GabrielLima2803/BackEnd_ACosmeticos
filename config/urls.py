@@ -20,17 +20,17 @@ from django.conf import settings
 from django.conf.urls.static import static
 from uploader.router import router as uploader_router
 
-from ACosmeticos.views import ProdutoViewSet, MarcasViewSet, CarrinhoViewSet, FavoritoViewSet, ClienteViewSet, ItemCarrinhoViewSet, FormaPagamentoViewSet, CompraViewSet,  UsuarioViewSet
+from ACosmeticos.views import ProdutoViewSet, MarcasViewSet, CarrinhoViewSet, FavoritoViewSet, ClienteViewSet, FormaPagamentoViewSet,  UsuarioViewSet
 
 router = DefaultRouter()
 router.register(r"produtos", ProdutoViewSet)
 router.register(r"marcas", MarcasViewSet)
 router.register(r"carrinhos", CarrinhoViewSet)
-router.register(r"itemcarrinhos", ItemCarrinhoViewSet)
+# router.register(r"itemcarrinhos", ItemCarrinhoViewSet)
 router.register(r"favoritos", FavoritoViewSet)
 router.register(r"clientes", ClienteViewSet)
 router.register(r"formaPagamentos", FormaPagamentoViewSet)
-router.register(r"compras", CompraViewSet)
+# router.register(r"compras", CompraViewSet)
 router.register(r"usuarios", UsuarioViewSet)
 
 
