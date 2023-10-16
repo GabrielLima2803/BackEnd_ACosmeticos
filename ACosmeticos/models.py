@@ -8,7 +8,6 @@ from usuario.models import Usuario
 class Cliente(models.Model):
     nome = models.CharField(max_length=100)
     email = models.EmailField(unique=True)
-    # passwordClie = models.CharField(unique=True, max_length=20)
     numero_telefone = models.CharField(max_length=20)
     endereco = models.TextField()
     numero_casa = models.CharField(max_length=10)
@@ -21,8 +20,6 @@ class Cliente(models.Model):
     class Meta:
         verbose_name_plural = "Clientes"
 
-    # importar o modelo Cliente do seu aplicativo de clientes
-
     def __str__(self):
         return self.nome
 
@@ -33,7 +30,6 @@ class Cliente(models.Model):
 class Marca(models.Model):
     nome_marcas = models.CharField(max_length=100)
     tipo_do_Produto = models.CharField(max_length=50)
-    # sub_produto = models.CharField(max_length=100, default='valor_padrao_aqui')
 
     def __str__(self):
        return f"{self.tipo_do_Produto}  "
@@ -58,36 +54,14 @@ class Carrinho(models.Model):
             total += item.produto.preco * item.quantidade
         return total
 
-#    total = models.DecimalField(max_digits=10, decimal_places=2, default=0.00)
-    # data_do_pedido = models.DateTimeField(auto_created=True)
 
     def __str__(self):
         return f"Carrinho de {self.cliente.nome}"
     
-# class Compra(models.Model):
-#     class StatusCompra(models.IntegerChoices):
-#         CARRINHO = 1, 'Carrinho'
-#         REALIZADO = 2, 'Realizado'
-#         PAGO = 3, 'Pago'
-#         Entregue = 4, 'Entregue'
-
-#     usuario = models.ForeignKey(Usuario, on_delete=models.PROTECT, related_name="compras")
-#     cliente = models.ForeignKey(Cliente, on_delete=models.CASCADE)
-#     status = models.IntegerField(choices=StatusCompra.choices, default=StatusCompra.CARRINHO)
- 
-#     @property
-#     def total(self):
-#         total = 0
-#         for item in self.itens.all():
-#             total += item.produto.preco * item.quantidade
-#         return total
-
-# # Produto
 
 class Produto(models.Model):
     nome = models.CharField(max_length=100)
     descricao = models.TextField(blank=False)
-    # tipo = models.CharField(max_length=50, blank=True, null=True)
     preco = models.DecimalField(max_digits=10, decimal_places=2, default=0, null=True)
     marca = models.ForeignKey(Marca, on_delete=models.PROTECT, blank=True, null=True) 
     quantia = models.IntegerField(null=True, default=1)
@@ -106,15 +80,10 @@ class Produto(models.Model):
 # Criação ItemCarrinho :)
     
 class ItemCarrinho(models.Model):
-    # compra = models.ForeignKey(Compra, on_delete=models.CASCADE, related_name="itens")
     carrinho = models.ForeignKey(Carrinho, on_delete=models.CASCADE, default=None, related_name="itens")
     produto = models.ForeignKey(Produto, on_delete=models.PROTECT, related_name="+")
     quantidade = models.PositiveIntegerField(default=1)
 
-# class CompraItem(models.Model):
-#     produto = models.ForeignKey(Produto, on_delete=models.CASCADE)
-#     compra = models.ForeignKey(Compra, on_delete=models.CASCADE)
-# Criação Favorito
 
 class Favorito(models.Model):
     cliente = models.ForeignKey(Cliente, on_delete=models.CASCADE) 
